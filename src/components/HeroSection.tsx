@@ -1,14 +1,15 @@
 const HeroSection = () => {
   return (
     <section 
-      className="relative min-h-[600px] bg-gradient-to-br from-gray-50 to-gray-100 overflow-hidden"
+      className="relative min-h-[600px] overflow-hidden"
       style={{
-        backgroundImage: `url('https://cdn.poehali.dev/files/c4714e97-002d-4630-a9fa-0939e2073f4d.png')`,
+        backgroundImage: `url('https://cdn.poehali.dev/files/4e9d0388-db6b-4d85-8293-5e87c430d22b.png')`,
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundPosition: 'top left',
+        backgroundColor: '#F0F1F3',
       }}
     >
-      <div className="container mx-auto px-4 py-16 lg:py-24 bg-[#F0F1F3]">
+      <div className="container mx-auto px-4 py-16 lg:py-24">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
