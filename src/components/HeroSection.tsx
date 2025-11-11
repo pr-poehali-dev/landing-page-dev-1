@@ -8,7 +8,7 @@ const HeroSection = () => {
         backgroundPosition: 'center',
       }}
     >
-      <div className="container mx-auto px-4 py-16 lg:py-24">
+      <div className="container mx-auto px-4 py-16 lg:py-24 bg-[#F0F1F3]">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
