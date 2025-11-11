@@ -1,15 +1,17 @@
 const HeroSection = () => {
   return (
-    <section 
-      className="relative min-h-[600px] overflow-hidden"
-      style={{
-        backgroundImage: `url('https://cdn.poehali.dev/files/4e9d0388-db6b-4d85-8293-5e87c430d22b.png')`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'top left',
-        backgroundColor: '#F0F1F3',
-      }}
-    >
-      <div className="container mx-auto px-4 py-16 lg:py-24">
+    <section className="relative min-h-[600px] overflow-hidden bg-[#F0F1F3]">
+      <div 
+        className="absolute top-0 left-0 w-[60%] h-full opacity-40"
+        style={{
+          backgroundImage: `url('https://cdn.poehali.dev/files/4e9d0388-db6b-4d85-8293-5e87c430d22b.png')`,
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat',
+          backgroundPosition: 'top left',
+        }}
+      />
+      
+      <div className="container mx-auto px-4 py-16 lg:py-24 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8 animate-fade-in">
             <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
@@ -55,11 +57,11 @@ const HeroSection = () => {
           </div>
 
           <div className="relative lg:block hidden">
-            <div className="relative animate-scale-in">
+            <div className="relative animate-scale-in z-20">
               <img
                 src="https://cdn.poehali.dev/files/746773fd-292b-417a-af96-abf8f5157e01.png"
                 alt="Professional team member"
-                className="w-full h-auto object-contain"
+                className="w-full h-auto object-contain relative z-20"
               />
             </div>
           </div>
