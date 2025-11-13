@@ -66,13 +66,11 @@ const HeroSection = () => {
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center px-8 py-4 bg-lp-blue hover:bg-blue-700 text-white rounded-lg font-medium transition-all hover:scale-105 shadow-lg"
                 >
-                  <div className="bg-white rounded p-1 mr-2">
-                    <img 
-                      src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
-                      alt="Telegram" 
-                      className="w-4 h-4"
-                    />
-                  </div>
+                  <img 
+                    src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
+                    alt="Telegram" 
+                    className="w-5 h-5 mr-2"
+                  />
                   Написать в Telegram
                 </a>
 
