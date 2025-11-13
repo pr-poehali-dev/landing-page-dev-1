@@ -39,7 +39,7 @@ const Header = () => {
                 className="hover:opacity-80 transition-opacity"
               >
                 <img 
-                  src="https://cdn.poehali.dev/files/3fee9301-7fed-441e-ab7a-c7f58f4b4a62.png" 
+                  src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
                   alt="Telegram" 
                   className="w-8 h-8"
                 />
@@ -146,7 +146,7 @@ const Header = () => {
                   className="hover:opacity-80 transition-opacity"
                 >
                   <img 
-                    src="https://cdn.poehali.dev/files/3fee9301-7fed-441e-ab7a-c7f58f4b4a62.png" 
+                    src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
                     alt="Telegram" 
                     className="w-8 h-8"
                   />
