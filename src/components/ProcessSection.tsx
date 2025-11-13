@@ -43,8 +43,8 @@ const ProcessSection = () => {
     >
       <div className="container mx-auto px-4 relative z-10">
         <h2 className="text-4xl lg:text-5xl font-bold mb-16 leading-tight max-w-3xl">
-          <span className="text-lp-blue">Процесс работы</span>{' '}
-          <span className="text-gray-900">состоит из нескольких этапов</span>
+          <span className="text-lp-blue">Отлаженный процесс</span>{' '}
+          <span className="text-gray-900">от идеи до готового сайта</span>
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
