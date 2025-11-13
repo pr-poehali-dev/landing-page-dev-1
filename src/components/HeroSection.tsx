@@ -92,9 +92,9 @@ const HeroSection = () => {
           <div className="relative lg:block hidden">
             <div className="relative animate-scale-in z-20">
               <img
-                src="https://cdn.poehali.dev/projects/a1733ddd-1511-4faf-aaa1-6db9599a0297/files/ee481f4d-aefc-485a-8052-6a49b472e1fe.jpg"
-                alt="Рост конверсий и результаты лендинга"
-                className="w-full h-auto object-contain relative z-20 rounded-2xl shadow-2xl"
+                src="https://cdn.poehali.dev/projects/a1733ddd-1511-4faf-aaa1-6db9599a0297/files/bab56f6f-ca54-416f-a3f2-6eb16162b149.jpg"
+                alt="Профессиональная разработка лендингов"
+                className="w-full h-auto object-contain relative z-20"
               />
             </div>
           </div>
