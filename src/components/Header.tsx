@@ -48,12 +48,12 @@ const Header = () => {
                 href="https://wa.me/79996571669" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
+                className="bg-[#25D366] rounded-lg p-1.5 hover:opacity-80 transition-opacity"
               >
                 <img 
                   src="https://cdn.poehali.dev/files/583157a4-6b0e-4dcf-ba1e-dc60bc1d1fb0.png" 
                   alt="WhatsApp" 
-                  className="w-8 h-8"
+                  className="w-5 h-5"
                 />
               </a>
             </div>
@@ -155,12 +155,12 @@ const Header = () => {
                   href="https://wa.me/79996571669" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="hover:opacity-80 transition-opacity"
+                  className="bg-[#25D366] rounded-lg p-1.5 hover:opacity-80 transition-opacity"
                 >
                   <img 
                     src="https://cdn.poehali.dev/files/583157a4-6b0e-4dcf-ba1e-dc60bc1d1fb0.png" 
                     alt="WhatsApp" 
-                    className="w-8 h-8"
+                    className="w-5 h-5"
                   />
                 </a>
               </div>
