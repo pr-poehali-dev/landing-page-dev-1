@@ -11,11 +11,13 @@ const HeroSection = () => {
         }}
       />
       
-      <div className="container mx-auto px-4 py-16 lg:py-24 relative z-10">
+      <div className="container mx-auto px-4 py-12 lg:py-16 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-8 animate-fade-in">
-            <div className="inline-flex items-center gap-2 bg-blue-50 px-4 py-2 rounded-full mb-4">
-              <span className="text-2xl">⚡</span>
+          <div className="space-y-6 animate-fade-in">
+            <div className="inline-flex items-center gap-2 bg-blue-50 px-4 py-2 rounded-full">
+              <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z"/>
+              </svg>
               <span className="text-sm font-semibold text-lp-blue">Запуск за 7 дней</span>
             </div>
 
@@ -31,20 +33,20 @@ const HeroSection = () => {
 
             <div className="flex flex-wrap items-center gap-6 py-4">
               <div className="flex items-center gap-3">
-                <div className="bg-green-100 rounded-full p-2">
-                  <span className="text-green-600 text-xl">✓</span>
+                <div className="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center">
+                  <span className="text-green-600 text-lg">✓</span>
                 </div>
                 <span className="text-gray-700 font-medium">120+ проектов</span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="bg-green-100 rounded-full p-2">
-                  <span className="text-green-600 text-xl">✓</span>
+                <div className="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center">
+                  <span className="text-green-600 text-lg">✓</span>
                 </div>
                 <span className="text-gray-700 font-medium">Средний чек 150 000₽</span>
               </div>
               <div className="flex items-center gap-3">
-                <div className="bg-green-100 rounded-full p-2">
-                  <span className="text-green-600 text-xl">✓</span>
+                <div className="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center">
+                  <span className="text-green-600 text-lg">✓</span>
                 </div>
                 <span className="text-gray-700 font-medium">4.9★ на Яндекс</span>
               </div>
@@ -69,7 +71,7 @@ const HeroSection = () => {
                     alt="Telegram" 
                     className="w-5 h-5 mr-2"
                   />
-                  Получить прототип бесплатно
+                  Написать в Telegram
                 </a>
 
                 <a
@@ -89,12 +91,12 @@ const HeroSection = () => {
             </div>
           </div>
 
-          <div className="relative lg:block hidden">
-            <div className="relative animate-scale-in z-20">
+          <div className="relative lg:flex hidden items-center justify-center">
+            <div className="relative animate-scale-in z-20 h-[550px]">
               <img
-                src="https://cdn.poehali.dev/projects/a1733ddd-1511-4faf-aaa1-6db9599a0297/files/0b0906c9-ed98-4e37-867b-3e4725ebe9eb.jpg"
+                src="https://cdn.poehali.dev/files/3c355d63-7975-41ab-b3b3-c09459936325.png"
                 alt="Профессиональный специалист по созданию лендингов"
-                className="w-full h-auto object-contain relative z-20"
+                className="h-full w-auto object-contain relative z-20"
               />
             </div>
           </div>
