@@ -36,12 +36,12 @@ const Header = () => {
                 href="https://t.me/lpgenius" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="hover:opacity-80 transition-opacity"
+                className="bg-[#5B9BD5] rounded-lg p-1.5 hover:opacity-80 transition-opacity"
               >
                 <img 
                   src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
                   alt="Telegram" 
-                  className="w-8 h-8"
+                  className="w-5 h-5"
                 />
               </a>
               <a 
@@ -143,12 +143,12 @@ const Header = () => {
                   href="https://t.me/lpgenius" 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="hover:opacity-80 transition-opacity"
+                  className="bg-[#5B9BD5] rounded-lg p-1.5 hover:opacity-80 transition-opacity"
                 >
                   <img 
                     src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
                     alt="Telegram" 
-                    className="w-8 h-8"
+                    className="w-5 h-5"
                   />
                 </a>
                 <a 
