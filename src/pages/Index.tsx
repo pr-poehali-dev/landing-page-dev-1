@@ -6,6 +6,7 @@ import PriceCallToAction from '@/components/PriceCallToAction';
 import PricingSection from '@/components/PricingSection';
 import PaymentSection from '@/components/PaymentSection';
 import TeamSection from '@/components/TeamSection';
+import AdditionalServicesSection from '@/components/AdditionalServicesSection';
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
       <PricingSection />
       <PaymentSection />
       <TeamSection />
+      <AdditionalServicesSection />
     </div>
   );
 };
