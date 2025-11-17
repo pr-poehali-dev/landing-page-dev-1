@@ -1,6 +1,6 @@
 const SeoTextSection = () => {
   return (
-    <section className="bg-white py-16 lg:py-24">
+    <section className="bg-[#F5F6F7] py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
