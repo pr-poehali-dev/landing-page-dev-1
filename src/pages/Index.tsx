@@ -8,6 +8,7 @@ import PaymentSection from '@/components/PaymentSection';
 import TeamSection from '@/components/TeamSection';
 import AdditionalServicesSection from '@/components/AdditionalServicesSection';
 import WhyChooseUsSection from '@/components/WhyChooseUsSection';
+import LandingStructureSection from '@/components/LandingStructureSection';
 import ContactSection from '@/components/ContactSection';
 
 const Index = () => {
@@ -23,6 +24,7 @@ const Index = () => {
       <TeamSection />
       <AdditionalServicesSection />
       <WhyChooseUsSection />
+      <LandingStructureSection />
       <ContactSection />
     </div>
   );
