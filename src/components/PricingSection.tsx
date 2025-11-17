@@ -55,8 +55,12 @@ const PricingSection = () => {
   ];
 
   return (
-    <section id="pricing" className="bg-white py-16 lg:py-24">
-      <div className="container mx-auto px-4">
+    <section id="pricing" className="relative bg-white py-16 lg:py-24 overflow-hidden">
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+        style={{ backgroundImage: 'url(https://cdn.poehali.dev/files/c70dcebe-de0a-4910-a427-9bec28362eb3.png)' }}
+      />
+      <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12 lg:mb-16">
             <h2 className="text-4xl lg:text-5xl font-bold mb-4">
