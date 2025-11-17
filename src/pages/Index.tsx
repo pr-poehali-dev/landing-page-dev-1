@@ -11,6 +11,7 @@ import WhyChooseUsSection from '@/components/WhyChooseUsSection';
 import LandingStructureSection from '@/components/LandingStructureSection';
 import SeoTextSection from '@/components/SeoTextSection';
 import ContactSection from '@/components/ContactSection';
+import TestimonialsSection from '@/components/TestimonialsSection';
 import Footer from '@/components/Footer';
 
 const Index = () => {
@@ -26,6 +27,7 @@ const Index = () => {
       <TeamSection />
       <AdditionalServicesSection />
       <ContactSection />
+      <TestimonialsSection />
       <WhyChooseUsSection />
       <LandingStructureSection />
       <SeoTextSection />
