@@ -24,8 +24,8 @@ const Index = () => {
       <TeamSection />
       <AdditionalServicesSection />
       <WhyChooseUsSection />
-      <LandingStructureSection />
       <ContactSection />
+      <LandingStructureSection />
     </div>
   );
 };
