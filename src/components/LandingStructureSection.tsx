@@ -73,11 +73,11 @@ const LandingStructureSection = () => {
           </p>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
-            <div className="order-2 lg:order-1">
+            <div className="order-2 lg:order-1 flex items-start">
               <img
-                src="https://cdn.poehali.dev/files/33162c9a-2778-48e0-87c4-9b6178bcd757.png"
+                src="https://cdn.poehali.dev/files/9e703bcc-401b-4f48-a532-7b7154f556af.png"
                 alt="Структура лендинга"
-                className="w-full max-w-md mx-auto"
+                className="w-full max-w-md mx-auto h-auto object-contain"
               />
             </div>
 
