@@ -2,7 +2,7 @@ const AdditionalServicesSection = () => {
   const services = [
     {
       title: 'Техническая поддержка сайта',
-      icon: '⚙️',
+      icon: 'https://cdn.poehali.dev/files/13a922da-4355-4e87-8834-d2658fd19abd.png',
       features: [
         'Яндекс Директ (Поиск и РСЯ, разработка и ведение',
         'Техническая оптимизация',
@@ -12,7 +12,7 @@ const AdditionalServicesSection = () => {
     },
     {
       title: 'Настройка Яндекс Директ',
-      icon: '🎯',
+      icon: 'https://cdn.poehali.dev/files/7601f7fb-c0ad-4804-bfdd-970253e67c57.png',
       features: [
         'Яндекс Директ (Поиск и РСЯ, разработка и ведение',
         'Техническая оптимизация',
@@ -22,7 +22,7 @@ const AdditionalServicesSection = () => {
     },
     {
       title: 'SEO продвижение',
-      icon: '🚀',
+      icon: 'https://cdn.poehali.dev/files/d11a548f-b491-4375-8996-686017ac0914.png',
       features: [
         'Яндекс Директ (Поиск и РСЯ, разработка и ведение',
         'Техническая оптимизация',
@@ -32,7 +32,7 @@ const AdditionalServicesSection = () => {
     },
     {
       title: 'Копирайтинг и наполнение сайта',
-      icon: '✍️',
+      icon: 'https://cdn.poehali.dev/files/e541a05b-42ba-43e9-96f7-f51972a2d3ed.png',
       features: [
         'Яндекс Директ (Поиск и РСЯ, разработка и ведение',
         'Техническая оптимизация',
@@ -65,7 +65,11 @@ const AdditionalServicesSection = () => {
                 className="bg-[#F0F1F3] rounded-2xl p-6 flex flex-col"
               >
                 <div className="mb-6 bg-white rounded-xl p-8 flex items-center justify-center aspect-square">
-                  <span className="text-7xl">{service.icon}</span>
+                  <img
+                    src={service.icon}
+                    alt={service.title}
+                    className="w-full h-full object-contain"
+                  />
                 </div>
 
                 <h3 className="text-xl font-bold text-gray-900 mb-4">
