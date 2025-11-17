@@ -27,9 +27,7 @@ const ServicesSection = () => {
             под ключ — просто!
           </h2>
           
-          <p className="text-xl text-white mb-12">
-            Мы все сделаем за вас "Под ключ"!
-          </p>
+          <p className="text-xl text-white mb-12">Мы все сделаем за вас:</p>
 
           <div className="flex flex-wrap gap-4">
             {services.map((service, index) => (
