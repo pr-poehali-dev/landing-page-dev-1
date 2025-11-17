@@ -2,7 +2,7 @@ const AdditionalServicesSection = () => {
   const services = [
     {
       title: 'Техническая поддержка сайта',
-      icon: 'https://cdn.poehali.dev/files/13a922da-4355-4e87-8834-d2658fd19abd.png',
+      icon: 'https://cdn.poehali.dev/files/df62914c-8d72-477b-8876-9ab0780b8dfa.png',
       features: [
         'Яндекс Директ (Поиск и РСЯ, разработка и ведение',
         'Техническая оптимизация',
@@ -12,7 +12,7 @@ const AdditionalServicesSection = () => {
     },
     {
       title: 'Настройка Яндекс Директ',
-      icon: 'https://cdn.poehali.dev/files/7601f7fb-c0ad-4804-bfdd-970253e67c57.png',
+      icon: 'https://cdn.poehali.dev/files/46927dc1-5bef-4c12-a0b3-b56463e95a08.png',
       features: [
         'Яндекс Директ (Поиск и РСЯ, разработка и ведение',
         'Техническая оптимизация',
@@ -22,7 +22,7 @@ const AdditionalServicesSection = () => {
     },
     {
       title: 'SEO продвижение',
-      icon: 'https://cdn.poehali.dev/files/d11a548f-b491-4375-8996-686017ac0914.png',
+      icon: 'https://cdn.poehali.dev/files/b6671f88-6587-4cd3-a087-77291986dfbf.png',
       features: [
         'Яндекс Директ (Поиск и РСЯ, разработка и ведение',
         'Техническая оптимизация',
@@ -31,8 +31,8 @@ const AdditionalServicesSection = () => {
       ]
     },
     {
-      title: 'Копирайтинг и наполнение сайта',
-      icon: 'https://cdn.poehali.dev/files/e541a05b-42ba-43e9-96f7-f51972a2d3ed.png',
+      title: 'E-mail рассылки',
+      icon: 'https://cdn.poehali.dev/files/3324c7be-0d18-41e4-a54f-44ebb95e007c.png',
       features: [
         'Яндекс Директ (Поиск и РСЯ, разработка и ведение',
         'Техническая оптимизация',
@@ -46,7 +46,7 @@ const AdditionalServicesSection = () => {
     <section 
       className="relative bg-white py-16 lg:py-24 overflow-hidden"
       style={{
-        backgroundImage: `url('https://cdn.poehali.dev/files/e3b48553-2e89-4b41-a8a9-471f95392473.png')`,
+        backgroundImage: `url('https://cdn.poehali.dev/files/9b1ad8ba-f2ad-4270-8ce3-9d393db672a6.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
@@ -62,9 +62,9 @@ const AdditionalServicesSection = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-[#F0F1F3] rounded-2xl p-6 flex flex-col"
+                className="bg-white rounded-2xl p-6 flex flex-col shadow-sm border border-gray-100"
               >
-                <div className="mb-6 bg-white rounded-xl p-8 flex items-center justify-center aspect-square">
+                <div className="mb-6 bg-gray-50 rounded-xl p-8 flex items-center justify-center aspect-square">
                   <img
                     src={service.icon}
                     alt={service.title}
