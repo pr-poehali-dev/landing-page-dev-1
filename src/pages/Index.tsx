@@ -11,6 +11,7 @@ import WhyChooseUsSection from '@/components/WhyChooseUsSection';
 import LandingStructureSection from '@/components/LandingStructureSection';
 import SeoTextSection from '@/components/SeoTextSection';
 import ContactSection from '@/components/ContactSection';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
       <WhyChooseUsSection />
       <LandingStructureSection />
       <SeoTextSection />
+      <Footer />
     </div>
   );
 };
