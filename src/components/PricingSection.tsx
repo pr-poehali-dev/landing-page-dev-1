@@ -8,7 +8,7 @@ const PricingSection = () => {
               Стоимость{' '}
               <span className="text-lp-blue">разработки сайта</span>
               <br />
-              <span className="text-lp-blue">под ключ 40 000 ₽.</span>{' '}
+              <span className="text-lp-blue">под ключ 60 000 ₽.</span>{' '}
               <span className="text-gray-900">Обсудить проект:</span>
             </h2>
           </div>
