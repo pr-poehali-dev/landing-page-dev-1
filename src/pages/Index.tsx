@@ -5,6 +5,7 @@ import ProcessSection from '@/components/ProcessSection';
 import PriceCallToAction from '@/components/PriceCallToAction';
 import PricingSection from '@/components/PricingSection';
 import PaymentSection from '@/components/PaymentSection';
+import TeamSection from '@/components/TeamSection';
 
 const Index = () => {
   return (
@@ -16,6 +17,7 @@ const Index = () => {
       <PriceCallToAction />
       <PricingSection />
       <PaymentSection />
+      <TeamSection />
     </div>
   );
 };
