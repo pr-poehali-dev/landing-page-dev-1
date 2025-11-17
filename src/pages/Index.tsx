@@ -9,6 +9,7 @@ import TeamSection from '@/components/TeamSection';
 import AdditionalServicesSection from '@/components/AdditionalServicesSection';
 import WhyChooseUsSection from '@/components/WhyChooseUsSection';
 import LandingStructureSection from '@/components/LandingStructureSection';
+import SeoTextSection from '@/components/SeoTextSection';
 import ContactSection from '@/components/ContactSection';
 
 const Index = () => {
@@ -26,6 +27,7 @@ const Index = () => {
       <ContactSection />
       <WhyChooseUsSection />
       <LandingStructureSection />
+      <SeoTextSection />
     </div>
   );
 };
