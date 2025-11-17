@@ -19,14 +19,7 @@ const PricingSection = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-8 py-4 bg-[#0088cc] hover:bg-[#006699] text-white rounded-lg font-medium transition-all hover:scale-105 shadow-lg w-full lg:w-auto"
-            >
-              <img 
-                src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
-                alt="Telegram" 
-                className="w-5 h-5 mr-2"
-              />
-              Написать в Telegram
-            </a>
+            >В Telegram</a>
 
             <a
               href="https://wa.me/79996571669"
