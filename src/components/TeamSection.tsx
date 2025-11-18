@@ -35,32 +35,32 @@ const TeamSection = () => {
   ];
 
   return (
-    <section className="bg-[#F0F1F3] py-16 lg:py-24">
+    <section className="bg-[#F0F1F3] py-12 sm:py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-7xl mx-auto">
-          <div className="grid lg:grid-cols-2 gap-12 lg:gap-16">
+          <div className="grid lg:grid-cols-2 gap-10 sm:gap-12 lg:gap-16">
             <div>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 leading-tight">
                 <span className="text-gray-900">В команде только</span>
                 <br />
                 <span className="text-lp-blue">опытные специалисты</span>
               </h2>
 
-              <ul className="space-y-4 mb-8">
+              <ul className="space-y-3 sm:space-y-4 mb-6 sm:mb-8">
                 {achievements.map((achievement, index) => (
-                  <li key={index} className="flex items-start gap-3">
-                    <span className="text-lp-blue text-xl flex-shrink-0 mt-0.5">•</span>
-                    <span className="text-gray-700 leading-relaxed">{achievement}</span>
+                  <li key={index} className="flex items-start gap-2 sm:gap-3">
+                    <span className="text-lp-blue text-lg sm:text-xl flex-shrink-0 mt-0.5">•</span>
+                    <span className="text-sm sm:text-base text-gray-700 leading-relaxed">{achievement}</span>
                   </li>
                 ))}
               </ul>
 
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a
                   href="https://t.me/lpgenius"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-6 py-3 bg-[#0088cc] hover:bg-[#006699] text-white rounded-lg font-medium transition-all hover:scale-105 shadow-lg"
+                  className="inline-flex items-center justify-center px-5 sm:px-6 py-2.5 sm:py-3 bg-[#0088cc] hover:bg-[#006699] text-white rounded-lg text-sm sm:text-base font-medium transition-all hover:scale-105 shadow-lg"
                 >
                   <img 
                     src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
@@ -73,7 +73,7 @@ const TeamSection = () => {
                   href="https://wa.me/79996571669"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-6 py-3 bg-[#25D366] hover:bg-[#1fb855] text-white rounded-lg font-medium transition-all hover:scale-105 shadow-lg"
+                  className="inline-flex items-center justify-center px-5 sm:px-6 py-2.5 sm:py-3 bg-[#25D366] hover:bg-[#1fb855] text-white rounded-lg text-sm sm:text-base font-medium transition-all hover:scale-105 shadow-lg"
                 >
                   <img 
                     src="https://cdn.poehali.dev/files/583157a4-6b0e-4dcf-ba1e-dc60bc1d1fb0.png" 
@@ -85,7 +85,7 @@ const TeamSection = () => {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {teamMembers.map((member, index) => (
                 <div
                   key={index}
@@ -96,11 +96,11 @@ const TeamSection = () => {
                     alt={member.name}
                     className="w-full aspect-[3/4] object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-4">
-                    <h3 className="text-white font-bold text-lg mb-1">
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent flex flex-col justify-end p-3 sm:p-4">
+                    <h3 className="text-white font-bold text-base sm:text-lg mb-1">
                       {member.name}
                     </h3>
-                    <p className="text-white/90 text-sm">
+                    <p className="text-white/90 text-xs sm:text-sm">
                       {member.description}
                     </p>
                   </div>

@@ -11,9 +11,9 @@ const HeroSection = () => {
         }}
       />
       
-      <div className="container mx-auto px-4 py-12 lg:py-16 relative z-10">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6 animate-fade-in">
+      <div className="container mx-auto px-4 py-8 sm:py-12 lg:py-16 relative z-10">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+          <div className="space-y-4 sm:space-y-6 animate-fade-in">
             <div className="inline-flex items-center gap-2 bg-blue-50 px-4 py-2 rounded-full">
               <svg className="w-5 h-5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
                 <path d="M11 3a1 1 0 10-2 0v1a1 1 0 102 0V3zM15.657 5.757a1 1 0 00-1.414-1.414l-.707.707a1 1 0 001.414 1.414l.707-.707zM18 10a1 1 0 01-1 1h-1a1 1 0 110-2h1a1 1 0 011 1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zM5 10a1 1 0 01-1 1H3a1 1 0 110-2h1a1 1 0 011 1zM8 16v-1h4v1a2 2 0 11-4 0zM12 14c.015-.34.208-.646.477-.859a4 4 0 10-4.954 0c.27.213.462.519.476.859h4.002z"/>
@@ -21,50 +21,50 @@ const HeroSection = () => {
               <span className="text-sm font-semibold text-lp-blue">Запуск за 7 дней</span>
             </div>
 
-            <h1 className="text-4xl lg:text-6xl font-bold leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight">
               Лендинг который{' '}
               <span className="text-lp-blue">продаёт в 3 раза больше</span>{' '}
               обычного сайта
             </h1>
             
-            <p className="text-xl text-gray-600 max-w-xl font-medium">
+            <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-xl font-medium">
               Конверсия до 15% вместо стандартных 3-5%. Не просто красиво — реально работает
             </p>
 
-            <div className="flex flex-wrap items-center gap-6 py-4">
-              <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-4 sm:gap-6 py-2 sm:py-4">
+              <div className="flex items-center gap-2 sm:gap-3">
                 <div className="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center">
                   <span className="text-green-600 text-lg">✓</span>
                 </div>
-                <span className="text-gray-700 font-medium">120+ проектов</span>
+                <span className="text-sm sm:text-base text-gray-700 font-medium">120+ проектов</span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2 sm:gap-3">
                 <div className="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center">
                   <span className="text-green-600 text-lg">✓</span>
                 </div>
-                <span className="text-gray-700 font-medium">Средний чек 150 000₽</span>
+                <span className="text-sm sm:text-base text-gray-700 font-medium">Средний чек 150 000₽</span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2 sm:gap-3">
                 <div className="bg-green-100 rounded-full w-8 h-8 flex items-center justify-center">
                   <span className="text-green-600 text-lg">✓</span>
                 </div>
-                <span className="text-gray-700 font-medium">4.9★ на Яндекс</span>
+                <span className="text-sm sm:text-base text-gray-700 font-medium">4.9★ на Яндекс</span>
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-2xl border-2 border-lp-blue">
-              <p className="text-lg font-bold text-gray-900 mb-2">
+            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 sm:p-6 rounded-2xl border-2 border-lp-blue">
+              <p className="text-base sm:text-lg font-bold text-gray-900 mb-2">
                 🎁 Специальное предложение
               </p>
-              <p className="text-gray-700 mb-4">
+              <p className="text-sm sm:text-base text-gray-700 mb-4">
                 Бесплатный прототип + бриф за 2 часа. Увидите будущий лендинг до начала работ
               </p>
-              <div className="flex flex-col sm:flex-row gap-4">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a
                   href="https://t.me/lpgenius"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-lp-blue hover:bg-blue-700 text-white rounded-lg font-medium transition-all hover:scale-105 shadow-lg"
+                  className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-lp-blue hover:bg-blue-700 text-white rounded-lg text-sm sm:text-base font-medium transition-all hover:scale-105 shadow-lg"
                 >
                   <img 
                     src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
@@ -78,7 +78,7 @@ const HeroSection = () => {
                   href="https://wa.me/79996571669"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#25D366] hover:bg-[#1fb855] text-white rounded-lg font-medium transition-all hover:scale-105 shadow-lg"
+                  className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-[#25D366] hover:bg-[#1fb855] text-white rounded-lg text-sm sm:text-base font-medium transition-all hover:scale-105 shadow-lg"
                 >
                   <img 
                     src="https://cdn.poehali.dev/files/b139eed7-778b-46fb-bd24-05a32359104f.png" 

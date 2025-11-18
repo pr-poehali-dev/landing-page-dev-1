@@ -44,7 +44,7 @@ const AdditionalServicesSection = () => {
 
   return (
     <section 
-      className="relative bg-white py-16 lg:py-24 overflow-hidden"
+      className="relative bg-white py-12 sm:py-16 lg:py-24 overflow-hidden"
       style={{
         backgroundImage: `url('https://cdn.poehali.dev/files/9b1ad8ba-f2ad-4270-8ce3-9d393db672a6.png')`,
         backgroundSize: 'cover',
@@ -53,18 +53,18 @@ const AdditionalServicesSection = () => {
     >
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-12 lg:mb-16 leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-10 sm:mb-12 lg:mb-16 leading-tight">
             <span className="text-lp-blue">Дополнительные</span>{' '}
             <span className="text-gray-900">услуги</span>
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-6 flex flex-col shadow-sm border border-gray-100"
+                className="bg-white rounded-2xl p-5 sm:p-6 flex flex-col shadow-sm border border-gray-100"
               >
-                <div className="mb-6 bg-gray-50 rounded-xl p-8 flex items-center justify-center aspect-square">
+                <div className="mb-4 sm:mb-6 bg-gray-50 rounded-xl p-6 sm:p-8 flex items-center justify-center aspect-square">
                   <img
                     src={service.icon}
                     alt={service.title}
@@ -72,11 +72,11 @@ const AdditionalServicesSection = () => {
                   />
                 </div>
 
-                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                <h3 className="text-lg sm:text-xl font-bold text-gray-900 mb-3 sm:mb-4">
                   {service.title}
                 </h3>
 
-                <ul className="space-y-3">
+                <ul className="space-y-2 sm:space-y-3">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-2">
                       <span className="text-lp-blue mt-1.5 flex-shrink-0">•</span>

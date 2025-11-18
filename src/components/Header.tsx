@@ -5,13 +5,13 @@ const Header = () => {
 
   return (
     <header className="bg-white shadow-sm sticky top-0 z-50">
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-4 py-3 sm:py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <img 
               src="https://cdn.poehali.dev/files/b328ff94-fa63-4747-85f2-fd05ae03fba6.png" 
               alt="LP Genius" 
-              className="h-12"
+              className="h-10 sm:h-12"
             />
           </div>
 
@@ -58,18 +58,18 @@ const Header = () => {
               </a>
             </div>
 
-            <div className="flex flex-col items-end">
+            <div className="hidden sm:flex flex-col items-end">
               <a 
                 href="tel:+79996571669" 
-                className="text-lg font-semibold text-gray-900 hover:text-lp-blue transition-colors"
+                className="text-base sm:text-lg font-semibold text-gray-900 hover:text-lp-blue transition-colors"
               >
                 +7 (999) 657 19 69
               </a>
-              <div className="flex items-center space-x-2 mt-1">
+              <div className="flex items-center space-x-1.5 sm:space-x-2 mt-1">
                 <div className="relative">
-                  <span className="flex h-3 w-3">
+                  <span className="flex h-2.5 w-2.5 sm:h-3 sm:w-3">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-lp-green opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-3 w-3 bg-lp-green"></span>
+                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 sm:h-3 sm:w-3 bg-lp-green"></span>
                   </span>
                 </div>
                 <span className="text-sm text-lp-green font-medium">Сейчас онлайн</span>

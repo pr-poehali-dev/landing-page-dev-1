@@ -1,14 +1,14 @@
 const SeoTextSection = () => {
   return (
-    <section className="bg-[#F5F6F7] py-16 lg:py-24">
+    <section className="bg-[#F5F6F7] py-12 sm:py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-4xl lg:text-5xl font-bold mb-8 leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-6 sm:mb-8 leading-tight">
             <span className="text-gray-900">Заголовок текстового </span>
             <span className="text-lp-blue">блока текст пример</span>
           </h2>
 
-          <div className="space-y-6 text-gray-700 leading-relaxed">
+          <div className="space-y-4 sm:space-y-6 text-sm sm:text-base text-gray-700 leading-relaxed">
             <p>
               Разработка лендинга — это комплексный процесс создания продающей одностраничной веб-страницы, направленной на привлечение целевой аудитории и конвертацию посетителей в клиентов. Качественный лендинг позволяет эффективно презентовать ваш продукт или услугу, выделить ключевые преимущества и мотивировать пользователя совершить целевое действие — оставить заявку, сделать заказ или подписаться на рассылку.
             </p>

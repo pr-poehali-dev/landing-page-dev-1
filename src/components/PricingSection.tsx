@@ -57,7 +57,7 @@ const PricingSection = () => {
   return (
     <section 
       id="pricing" 
-      className="relative bg-white py-16 lg:py-24 overflow-hidden"
+      className="relative bg-white py-12 sm:py-16 lg:py-24 overflow-hidden"
       style={{
         backgroundImage: `url('https://cdn.poehali.dev/files/32b2c804-4ba1-4e09-90c5-62f0c9abfd3a.png')`,
         backgroundSize: 'cover',
@@ -66,30 +66,30 @@ const PricingSection = () => {
     >
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-12 lg:mb-16">
-            <h2 className="text-4xl lg:text-5xl font-bold mb-4">
+          <div className="text-center mb-10 sm:mb-12 lg:mb-16">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
               Тарифы на <span className="text-lp-blue">разработку</span>
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-base sm:text-lg text-gray-600 max-w-2xl mx-auto px-4">
               Выберите подходящий пакет услуг для вашего бизнеса
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 sm:gap-8">
             {pricingPlans.map((plan, index) => (
               <div
                 key={index}
-                className="relative rounded-2xl p-8 flex flex-col bg-gray-50 border-2 border-gray-200"
+                className="relative rounded-2xl p-6 sm:p-8 flex flex-col bg-gray-50 border-2 border-gray-200"
               >
-                <div className="mb-6">
-                  <h3 className="text-2xl font-bold mb-2 text-gray-900">
+                <div className="mb-4 sm:mb-6">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-2 text-gray-900">
                     {plan.name}
                   </h3>
-                  <p className="text-sm font-medium mb-4 text-gray-500">
+                  <p className="text-xs sm:text-sm font-medium mb-3 sm:mb-4 text-gray-500">
                     {plan.subtitle}
                   </p>
                   <div className="mb-2">
-                    <span className="text-4xl font-bold text-lp-blue">
+                    <span className="text-3xl sm:text-4xl font-bold text-lp-blue">
                       {plan.price}
                     </span>
                   </div>
@@ -105,15 +105,15 @@ const PricingSection = () => {
                   )}
                 </div>
 
-                <p className="mb-6 text-sm text-gray-600">
+                <p className="mb-4 sm:mb-6 text-xs sm:text-sm text-gray-600">
                   {plan.description}
                 </p>
 
-                <div className="mb-8 flex-grow">
-                  <h4 className="text-sm font-bold mb-4 text-gray-900">
+                <div className="mb-6 sm:mb-8 flex-grow">
+                  <h4 className="text-xs sm:text-sm font-bold mb-3 sm:mb-4 text-gray-900">
                     Включено:
                   </h4>
-                  <ul className="space-y-3">
+                  <ul className="space-y-2 sm:space-y-3">
                     {plan.features.map((feature, featureIndex) => (
                       <li key={featureIndex} className="flex items-start gap-3">
                         <Icon 
@@ -121,7 +121,7 @@ const PricingSection = () => {
                           className="flex-shrink-0 mt-0.5 text-lp-blue"
                           size={20}
                         />
-                        <span className="text-sm text-gray-700">
+                        <span className="text-xs sm:text-sm text-gray-700">
                           {feature}
                         </span>
                       </li>
@@ -134,7 +134,7 @@ const PricingSection = () => {
                     href="https://t.me/lpgenius"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center w-full px-6 py-3 rounded-lg font-medium transition-all hover:scale-105 shadow-lg bg-[#0088cc] text-white hover:bg-[#006699]"
+                    className="inline-flex items-center justify-center w-full px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-medium transition-all hover:scale-105 shadow-lg bg-[#0088cc] text-white hover:bg-[#006699]"
                   >
                     <img 
                       src="https://cdn.poehali.dev/files/9f9d9d80-9563-495e-a36c-8c111dc40d28.png" 
@@ -148,7 +148,7 @@ const PricingSection = () => {
                     href="https://wa.me/79996571669"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center justify-center w-full px-6 py-3 rounded-lg font-medium transition-all hover:scale-105 shadow-lg bg-[#25D366] text-white hover:bg-[#1fb855]"
+                    className="inline-flex items-center justify-center w-full px-5 sm:px-6 py-2.5 sm:py-3 rounded-lg text-sm sm:text-base font-medium transition-all hover:scale-105 shadow-lg bg-[#25D366] text-white hover:bg-[#1fb855]"
                   >
                     <Icon name="MessageCircle" className="w-5 h-5 mr-2" />
                     Написать в WhatsApp
